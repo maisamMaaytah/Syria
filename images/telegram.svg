@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Controls/Button/circle Copy 2</title>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer-M" transform="translate(-172.000000, -484.000000)">
+            <g id="Group" transform="translate(78.000000, 484.000000)">
+                <g id="Controls/Button/circle-Copy-2" transform="translate(94.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Ã°ÂÂÂ¨-Color" fill="#1c164e" xlink:href="#path-1"></use>
+                    <g id="3-.ic/solid/ic_tick" mask="url(#mask-2)" fill="#F9F9FA">
+                        <g transform="translate(8.000000, 9.333333)" id="Path">
+                            <path d="M6.27826934,8.7878147 L6.01359632,12.5105708 C6.39227208,12.5105708 6.55627602,12.3479002 6.75294741,12.1525622 L8.52832337,10.4558548 L12.2070784,13.1499194 C12.8817613,13.5259285 13.357106,13.3279237 13.5391104,12.5292379 L15.953835,1.21429949 L15.9545017,1.21363281 C16.1685068,0.216275522 15.5938264,-0.173733844 14.9364773,0.0709386982 L0.742803076,5.5050692 C-0.225886853,5.88107823 -0.211219834,6.42109119 0.578132455,6.66576374 L4.20688626,7.79445751 L12.6357553,2.52033085 C13.0324315,2.25765788 13.3931069,2.4029947 13.0964331,2.66566768 L6.27826934,8.7878147 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

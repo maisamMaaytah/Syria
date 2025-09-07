@@ -1,0 +1,2 @@
+function toggleVideo(){var e=document.querySelector(".video-player");e.classList.add("show"),e.addEventListener("click",toggleVideo)}$((function(){$(".nav-item").hover((function(){$(this).find(".dropdown-menu").toggle()}))}));
+//# sourceMappingURL=syria-dist.js.map

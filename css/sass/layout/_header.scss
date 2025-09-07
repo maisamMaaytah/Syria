@@ -1,0 +1,125 @@
+.header{
+    padding: 20px 0;
+
+    .search{
+        height: 34px;
+        width: 267px;
+
+        .search-input{
+            padding-right: 12px;
+            font-family: Frutiger-roman;
+        }
+
+        .search-input:focus{ 
+            box-shadow: none;
+        }
+
+    } 
+
+
+    @media  #{$mobile}{
+    display: none;
+    }
+
+    @media  #{$Medium}{
+    display: none;
+    }
+}
+
+
+
+.nav-bar{
+
+    font-family: 'Frutiger-roman';
+    background-color: $primaryColor;
+
+        li{
+            padding: 0 2px;
+
+            a{
+                color: white;
+                &:hover{
+                    color:$orange-color;
+                }
+            }
+
+            &:hover{
+                .dropdown-menu{
+                    padding: 0;
+                    
+                    a{
+                        color: #5d5d66;
+                        text-align: right;
+                        &:hover{
+                        background-color: #e6e6ec;
+                        }
+                    }
+
+                    &:before {
+                        content: "";
+                        border: {
+                            width:5px;
+                            style:solid;
+                            color:transparent transparent white transparent;
+                        } 
+                        position: absolute;
+                        z-index: -1;
+                        right: 20%;
+                        top: -10px;
+                    }
+
+                    
+                }   
+            }
+            
+        }
+
+
+        .nav-wrapper{
+            @media  #{$desktop}{
+                display: none;
+            }
+            display: flex;
+            justify-content: space-between;
+
+
+            .right-nav{
+                .navbar-toggler{
+                    &:focus{
+                    box-shadow: none;
+                    }
+                }
+            }
+
+            .left-nav{
+                .search-input {
+                    display: none; /* Initially hide the input field */
+                    width: 200px;
+                    padding: 5px;
+                    margin-top: 10px;
+                }
+
+                .live-btn{
+                    padding: 3px 4px 1px 4px;
+                    width: fit-content;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    svg{
+                        width: 20px;
+                        height: 20px;
+                    } 
+                }  
+            }
+
+            @media  #{$mobile}{
+                background-color: white;
+                padding: 20px 0;
+            }
+    
+            @media  #{$Medium}{
+                background-color: white;
+                padding: 20px 0;
+            }
+
+        } 
+    }

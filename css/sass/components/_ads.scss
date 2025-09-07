@@ -1,0 +1,71 @@
+.ads {
+padding-top: 30px;
+padding-bottom:30px;
+
+
+    .ads-info-two{
+
+            display: block !important;
+            background: #f9f9fa;
+            height: 290px;
+            width: 1024px;
+            padding-top: 15px;
+            padding-bottom: 25px;
+            margin-left:auto;
+            margin-right: auto;
+            position: relative;
+
+            p{
+                position: absolute;
+                right: 50%;
+                bottom: 0;
+            }
+
+            @media  #{$mobile}{
+                height: 640px;
+                width: 100%;
+            }
+
+            @media  #{$Medium}{
+                height: 640px;
+                width: 100%;
+            }
+
+    }
+
+    .ads-info{
+        height: 130px;
+        background-color: #f9f9fa;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1020px;
+        position: relative;
+        display: block;
+
+        p{
+            position: absolute;
+            right: 50%;
+            bottom: 0;
+        }
+
+        @media  #{$mobile}{
+            height: 169px;
+            width: 100%;
+        }
+
+        @media  #{$Medium}{
+            height: 169px;
+            width: 100%;
+        }
+        
+    }
+
+}
+
+    
+    
+
+
+

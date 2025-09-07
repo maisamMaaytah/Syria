@@ -1,0 +1,44 @@
+.main-heading{
+
+    margin-bottom: 24px;
+
+            a{
+                h2{
+                    font-size: 28px;
+
+                    &:hover{
+                        color: black !important;
+                    }
+    
+                    @media  #{$mobile}{
+                    font-size: 24px;
+                    }
+                }
+            }
+
+        .view-all{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: normal;
+            color: #df7f0c !important; 
+            display: flex;
+        &:hover{
+            color: $orange-color !important;
+        }
+        svg{
+            margin-right: 10px;
+            margin-top: 12px;
+            margin-left: -4px;
+            font-size: 14px !important;
+        }
+
+        @media  #{$mobile}{
+        display: none !important;
+        }
+
+        @media  #{$Medium}{
+            display: none !important;
+            }
+    
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>twitter</title>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="twitter">
+            <g id="Ã°ÂÂÂ¨-Color" fill="#1c164e" fill-rule="nonzero">
+                <circle id="path-1" cx="16" cy="16" r="16"></circle>
+            </g>
+            <g id="3-.ic/solid/ic_tick-Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="path-1"></g>
+                <g id="3-.ic/flag/twitter" mask="url(#mask-2)">
+                    <g transform="translate(8, 8.6667)" id="Group">
+                        <path d="M12.6009364,0 L15.0543735,0 L9.69434015,6.21264957 L16,14.6666667 L11.0627173,14.6666667 L7.19566124,9.53935043 L2.770871,14.6666667 L0.315950494,14.6666667 L6.04904278,8.02153846 L3.29366679e-16,0 L5.06262458,0 L8.55810504,4.6865641 L12.6009364,0 Z M11.73986,13.1774359 L13.0993371,13.1774359 L4.32392342,1.41100855 L2.86506281,1.41100855 L11.73986,13.1774359 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+.news-box{
+    position: relative;
+    height: 100%;
+
+    &img{
+        width: 100%;
+
+        @media  #{$mobile}{
+            margin-bottom: 10px;
+    
+            }
+
+            @media  #{$Medium}{
+                margin-bottom: 10px;
+        
+                }
+    }
+
+    h2{
+        
+        text-align: right;
+    }
+    a{
+        &::before{
+            content: "";        
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            display: block;
+            overflow: hidden;
+        }
+    }
+
+    .img-wrapper{
+        position: sticky;
+    }
+}

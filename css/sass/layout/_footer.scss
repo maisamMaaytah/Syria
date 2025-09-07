@@ -1,0 +1,93 @@
+.footer{
+
+    .f-right{
+        img{
+            width: 100px;
+            height: 44px;
+
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.43;
+            color: #74747c;
+        }
+
+        .footer-btn{
+            button{
+                padding: 3px 6px;
+            }
+        }
+    }
+
+    .f-middle{
+        li{
+            cursor: pointer;
+            a{
+                font-family: Frutiger-roman;
+                font-size: 14px;
+                font-weight: 400;
+                color: #454551;
+                margin-bottom: 7px;
+    
+                svg{
+                    padding-left: 10px;
+                }
+            }
+        }
+        
+    }
+
+    .f-left{
+
+.form-inline{
+    flex-wrap: wrap;
+
+    .email-input{
+        input{
+            height: 52px;
+        } 
+    }
+}
+            .social {
+                margin-top: 30px;
+                .social-link{
+                    margin-left: 11px;
+
+                    .social-logo {
+                        width: 32px;
+                        height: auto;
+                    }
+                }
+
+
+                @media  #{$mobile}{
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    }
+
+
+            }
+    }
+    
+    .the-end{
+        background-color: $primaryColor;
+
+        .container{
+            font-size: 14px;
+            font-weight: 500;
+
+
+            @media  #{$mobile}{
+                align-items: center;
+                flex-direction: column-reverse;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                }
+        }
+
+
+    }
+}
